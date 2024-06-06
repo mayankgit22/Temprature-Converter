@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature converter</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="mydiv">
+        <h1 id="myh1">
+            Temprature Converter
+        </h1>
+        <input type="text"  id="myinput"><br>
+        <div id="radio1">
+        <input type="radio" name="radio" id="myradio1">
+        <label id="mylabel1" for="myradio1">fahrenheit ➡️ Celcius</label>
+    </div>
+    <div id="radio2">
+
+        <input type="radio" name="radio" id="myradio2">
+        <label id="mylabel2" for="myradio2">Celcius ➡️ fahrenheit</label>    </div>
+
+
+        <button id="mysubmit" onclick="convert()">Submit</button>
+    </div>
+    <h2 id="myh2"></h2>
+    <script src="index.js"></script>
+</body>
+</html>
